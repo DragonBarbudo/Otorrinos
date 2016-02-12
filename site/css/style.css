@@ -1072,3 +1072,6 @@ footer#footer .bottom a {
 footer#footer .bottom a:hover {
   color: #723917;
 }
+#swipebox-overlay {
+  background: rgba(0, 117, 128, 0.5);
+}

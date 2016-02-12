@@ -217,9 +217,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61176,
+		"initialSize": 62467,
 		"inputAbbreviatedPath": "\/site\/img\/bg_a.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/bg_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/bg_b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77225,
+		"inputAbbreviatedPath": "\/site\/img\/bg_b.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/bg_b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/bg_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76775,
+		"inputAbbreviatedPath": "\/site\/img\/bg_c.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/bg_c.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

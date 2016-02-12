@@ -1,0 +1,71 @@
+include site/_config.jade
+
++html5
+  +head(title, stylesheets, keywords, description)
+  body    
+
+    +sliderbg('#header', 'site/img/bg_a.jpg')
+    header#header
+      .container
+        .col5.col-t8.push-t2.col-m10.push-m1.otorrinos_logo
+          img(src="site/img/otorrinos.png", alt="Otorrinos")
+        .col7.col-t12.col-m12.somos
+          h1
+            small Somos un grupo de
+            span Especialistas Médicos en Otorrinolaringología
+          .container
+            .col10.push1.video
+              a(href="https://www.youtube.com/watch?v=RCZNOV-ItMw").box.player
+                img(src="site/img/player.png", alt="Ver video").w100
+                .btn
+                  small OTORRINOS ESPECIALIZADOS
+                  i.fa.fa-caret-right
+          .container
+            .col12.conocenos
+              a(href="http://otorrinosensantafe.com.mx/").btn.wait: strong CONÓCENOS  
+      .otoscopio.notablet.nomobile
+        
+    section#middle
+      .container.diagnostico
+        .col6.push3
+          h2 DIAGNÓSTICO
+      .container.diagnostico
+        .col2.push1.col-t6.push-t0.col-m12.push-m0
+          .ic: img(src="site/img/ic_oido.jpg", alt="Oído")
+          h3 Oído
+        .col2.push2.col-t6.push-t0.col-m12.push-m0
+          .ic: img(src="site/img/ic_nariz.jpg", alt="Naríz")
+          h3 Naríz
+        .col2.push2.col-t12.push-t0.col-m12.push-m0
+          .ic: img(src="site/img/ic_garganta.jpg", alt="Garganta")
+          h3 Garganta
+            small Vías respiratorias
+      .container.servicios
+        .col6.push3
+          h2 SERVICIOS
+      .container.servicios
+        .col2.push1.col-t6.push-t0.col-m12.push-m0
+          .ic: img(src="site/img/ic_cirugias.jpg", alt="Cirugías")
+          h3 Cirugías
+        .col2.push2.col-t6.push-t0.col-m12.push-m0
+          .ic: img(src="site/img/ic_alergias.jpg", alt="Alergias")
+          h3 Alergias
+        .col2.push2.col-t12.push-t0.col-m12.push-m0
+          .ic: img(src="site/img/ic_audicion.jpg", alt="Audición")
+          h3 Audición
+    
+    section#call
+        .container
+          .col12
+            h2 Especialistas Médicos en Otorrinolaringología
+          .col6.push3
+            a(href="http://otorrinosensantafe.com.mx/").btn.conocenoscall: strong CONÓCENOS
+    
+    footer#footer
+      .container.white
+        .col12: h3 DIAGNÓSTICO DE ENFERMEDADES, TRASTORNOS Y DOLENCIAS.
+      .bottom
+        .container
+          .col12: a(href="http://otorrinosensantafe.com.mx/") http://otorrinosensantafe.com.mx/
+
+    +scripts
